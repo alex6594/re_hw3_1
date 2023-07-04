@@ -1,9 +1,10 @@
-import React from 'react';
-import './App.css';
 import Stars from './components/Stars';
+import './App.css';
 
 function App() {
-  return <Stars count={5} />;
+  return (
+    <Stars count={5} />
+  )
 }
 
 export default App;
